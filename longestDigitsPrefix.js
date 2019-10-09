@@ -1,5 +1,5 @@
 function longestDigitsPrefix(x) {
-  if(x[0]>'9' || x[0]<'0')
+  if(x[0]>'9' || x[0]<'0'||x.length == 0)
       return "";
   var count = 0;
   for(var i =0; i<x.length;i++){
